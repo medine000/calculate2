@@ -53,59 +53,67 @@
             // 
             // listBox1
             // 
+            listBox1.BackColor = Color.Black;
+            listBox1.Font = new Font("Segoe UI", 12F);
+            listBox1.ForeColor = Color.White;
             listBox1.FormattingEnabled = true;
             listBox1.Location = new Point(-1, 0);
             listBox1.Name = "listBox1";
-            listBox1.Size = new Size(502, 184);
+            listBox1.Size = new Size(502, 172);
             listBox1.TabIndex = 0;
             // 
             // AC
             // 
+            AC.BackColor = Color.Gold;
             AC.Location = new Point(29, 205);
             AC.Name = "AC";
             AC.Size = new Size(70, 58);
             AC.TabIndex = 1;
             AC.Text = "AC";
-            AC.UseVisualStyleBackColor = true;
+            AC.UseVisualStyleBackColor = false;
             AC.Click += AC_Click;
             // 
             // button2
             // 
+            button2.BackColor = Color.Gold;
             button2.Location = new Point(144, 208);
             button2.Name = "button2";
             button2.Size = new Size(78, 57);
             button2.TabIndex = 2;
             button2.Text = "+/-";
-            button2.UseVisualStyleBackColor = true;
+            button2.UseVisualStyleBackColor = false;
             // 
             // qaliq
             // 
+            qaliq.BackColor = Color.Gold;
             qaliq.Location = new Point(273, 207);
             qaliq.Name = "qaliq";
             qaliq.Size = new Size(74, 58);
             qaliq.TabIndex = 3;
             qaliq.Text = "%";
-            qaliq.UseVisualStyleBackColor = true;
+            qaliq.UseVisualStyleBackColor = false;
             qaliq.Click += qaliq_Click;
             // 
             // devide
             // 
+            devide.BackColor = Color.Gold;
             devide.Location = new Point(391, 207);
             devide.Name = "devide";
             devide.Size = new Size(78, 56);
             devide.TabIndex = 4;
             devide.Text = "/";
-            devide.UseVisualStyleBackColor = true;
+            devide.UseVisualStyleBackColor = false;
             devide.Click += devide_Click;
             // 
             // vur
             // 
+            vur.BackColor = Color.Gold;
             vur.Location = new Point(391, 288);
             vur.Name = "vur";
             vur.Size = new Size(78, 56);
             vur.TabIndex = 8;
             vur.Text = "x";
-            vur.UseVisualStyleBackColor = true;
+            vur.UseVisualStyleBackColor = false;
             vur.Click += vur_Click;
             // 
             // btn3
@@ -140,12 +148,13 @@
             // 
             // topla
             // 
+            topla.BackColor = Color.Gold;
             topla.Location = new Point(391, 373);
             topla.Name = "topla";
             topla.Size = new Size(78, 56);
             topla.TabIndex = 12;
             topla.Text = "+";
-            topla.UseVisualStyleBackColor = true;
+            topla.UseVisualStyleBackColor = false;
             topla.Click += topla_Click;
             // 
             // btn6
@@ -180,12 +189,13 @@
             // 
             // cix
             // 
+            cix.BackColor = Color.Gold;
             cix.Location = new Point(391, 456);
             cix.Name = "cix";
             cix.Size = new Size(78, 56);
             cix.TabIndex = 16;
             cix.Text = "-";
-            cix.UseVisualStyleBackColor = true;
+            cix.UseVisualStyleBackColor = false;
             cix.Click += cix_Click;
             // 
             // btn9
@@ -220,22 +230,24 @@
             // 
             // beraber
             // 
+            beraber.BackColor = Color.Gold;
             beraber.Location = new Point(391, 544);
             beraber.Name = "beraber";
             beraber.Size = new Size(78, 56);
             beraber.TabIndex = 20;
             beraber.Text = "=";
-            beraber.UseVisualStyleBackColor = true;
+            beraber.UseVisualStyleBackColor = false;
             beraber.Click += beraber_Click;
             // 
             // button18
             // 
+            button18.BackColor = Color.Gold;
             button18.Location = new Point(273, 544);
             button18.Name = "button18";
             button18.Size = new Size(74, 58);
             button18.TabIndex = 19;
             button18.Text = ",";
-            button18.UseVisualStyleBackColor = true;
+            button18.UseVisualStyleBackColor = false;
             // 
             // btn0
             // 
@@ -249,12 +261,13 @@
             // 
             // button20
             // 
+            button20.BackColor = Color.Gold;
             button20.Location = new Point(29, 542);
             button20.Name = "button20";
             button20.Size = new Size(70, 58);
             button20.TabIndex = 17;
             button20.Text = "sin";
-            button20.UseVisualStyleBackColor = true;
+            button20.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
