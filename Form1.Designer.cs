@@ -49,6 +49,9 @@
             button18 = new Button();
             btn0 = new Button();
             button20 = new Button();
+            button1 = new Button();
+            button3 = new Button();
+            listBox2 = new ListBox();
             SuspendLayout();
             // 
             // listBox1
@@ -59,7 +62,7 @@
             listBox1.FormattingEnabled = true;
             listBox1.Location = new Point(-1, 0);
             listBox1.Name = "listBox1";
-            listBox1.Size = new Size(502, 172);
+            listBox1.Size = new Size(470, 172);
             listBox1.TabIndex = 0;
             // 
             // AC
@@ -269,11 +272,47 @@
             button20.Text = "sin";
             button20.UseVisualStyleBackColor = false;
             // 
+            // button1
+            // 
+            button1.BackColor = Color.Gold;
+            button1.ForeColor = SystemColors.ActiveCaptionText;
+            button1.Location = new Point(502, 551);
+            button1.Name = "button1";
+            button1.Size = new Size(108, 42);
+            button1.TabIndex = 21;
+            button1.Text = "Clear";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
+            // 
+            // button3
+            // 
+            button3.BackColor = Color.Gold;
+            button3.Location = new Point(616, 551);
+            button3.Name = "button3";
+            button3.Size = new Size(104, 42);
+            button3.TabIndex = 22;
+            button3.Text = "Delete";
+            button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
+            // 
+            // listBox2
+            // 
+            listBox2.BackColor = SystemColors.MenuText;
+            listBox2.ForeColor = Color.White;
+            listBox2.FormattingEnabled = true;
+            listBox2.Location = new Point(495, 0);
+            listBox2.Name = "listBox2";
+            listBox2.Size = new Size(225, 544);
+            listBox2.TabIndex = 23;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(502, 654);
+            ClientSize = new Size(749, 654);
+            Controls.Add(listBox2);
+            Controls.Add(button3);
+            Controls.Add(button1);
             Controls.Add(beraber);
             Controls.Add(button18);
             Controls.Add(btn0);
@@ -323,5 +362,8 @@
         private Button button18;
         private Button btn0;
         private Button button20;
+        private Button button1;
+        private Button button3;
+        private ListBox listBox2;
     }
 }

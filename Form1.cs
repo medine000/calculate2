@@ -35,21 +35,43 @@ namespace calculate2
         {
             try
             {
-                
+
                 string expression = string.Join("", listBox1.Items.Cast<string>());
 
-                
+
                 DataTable dt = new DataTable();
                 var result = dt.Compute(expression, "");
 
-         
+
                 listBox1.Items.Clear();
                 listBox1.Items.Add(result?.ToString() ?? "sehv ifade");
+
+
+                string historyItem = expression + " = " + result?.ToString();
+                listBox2.Items.Add(historyItem);
             }
             catch
             {
                 listBox1.Items.Clear();
                 listBox1.Items.Add("Error");
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            listBox2.Items.Clear();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if(listBox2.SelectedIndex!= -1)
+            {
+                int selectedIndex = listBox2.SelectedIndex;
+                listBox2.Items.RemoveAt(selectedIndex);
+            }
+            else
+            {
+                MessageBox.Show("Please select an item to delete.");
             }
         }
     }
